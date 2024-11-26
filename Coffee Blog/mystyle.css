@@ -1,0 +1,73 @@
+/*global*/
+body{
+    font-family:arial;
+}   
+img{
+    max-width: 100%;
+}
+p{
+    line-height: 1
+    ;
+}
+/*utilities*/
+.container{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-more{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+
+}
+.btn-info{
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+/*header*/
+header{
+    background-image: url(img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    height: 350px;
+    text-align: center;
+}
+/*footer*/
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    background-size: contain;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*abococon*/
+.abococon{
+    background-color: black;
+    color: white;
+    text-align: top;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    background-size: contain;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
