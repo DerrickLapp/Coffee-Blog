@@ -8,53 +8,69 @@
 </head>
 <body>
 
-    <header>
-        <h1>Coffee Blog</h1>
+    <header class="site-header">
+        <div class="menu-bar">
+            <a href="index.html"><h1>Coffee Blog</h1></a>
+            <nav class="menu">
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
         <h2>Coffee Blog with tips and courses</h2>
         <p>Learn from the experts with the best recipes and tips</p>
     </header>
-    <main class="container">
-        <h2>Our blog</h2>
+    <main class="container main-flex">
+        <section class="blog-container">  
+            <h2>Our blog</h2>
+            <div class="bottom-line"><!--blog 1-->
+                <img src="img/blog1.jpg" alt="">
+                <h3>Coffee bean Type</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, nam. Eligendi, nostrum. Fugiat perspiciatis expedita, reiciendis perferendis, vitae autem praesentium distinctio at blanditiis pariatur aperiam culpa. Ducimus voluptas omnis fugit!</p>
+                <a class="btn btn-more" href="#">Read more</a>
+            </div>
+            <div class="bottom-line"><!--blog 2-->
+                <img src="img/blog2.jpg" alt="">
+                <h3>3 Delicious Coffee Recipes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla magnam, nihil dolorem tenetur ipsa maiores ipsum sed praesentium numquam, sunt adipisci, cumque corporis modi dolores assumenda at ea aliquam nostrum.</p>
+                <a class="btn btn-more" href="#">Read more</a>
+            </div>
+            <div class="bottom-line"><!--blog 3-->
+                <img src="img/blog3.jpg" alt="">
+                <h3>Coffee Benefits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem harum autem nam molestiae eaque accusamus, officiis libero deserunt aspernatur earum esse veniam sed illum doloribus numquam, assumenda asperiores. Neque, iusto.</p>
+                <a class="btn btn-more" href="#">Read more</a>
+            </div>
+        </section> <!-- .blog-container-->
 
-        <div>
-            <img src="img/blog1.jpg" alt="">
-            <h3>Coffee bean Type</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, nam. Eligendi, nostrum. Fugiat perspiciatis expedita, reiciendis perferendis, vitae autem praesentium distinctio at blanditiis pariatur aperiam culpa. Ducimus voluptas omnis fugit!</p>
-            <a class="btn-more" href="#">Read more</a>
-        </div>
-
-        <div>
-            <img src="img/blog2.jpg" alt="">
-            <h3>3 Delicious Coffee Recipes</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla magnam, nihil dolorem tenetur ipsa maiores ipsum sed praesentium numquam, sunt adipisci, cumque corporis modi dolores assumenda at ea aliquam nostrum.</p>
-            <a class="btn-more" href="#">Read more</a>
-        </div>
-
-        <div>
-            <img src="img/blog3.jpg" alt="">
-            <h3>Coffee Benefits</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem harum autem nam molestiae eaque accusamus, officiis libero deserunt aspernatur earum esse veniam sed illum doloribus numquam, assumenda asperiores. Neque, iusto.</p>
-            <a class="btn-more" href="#">Read more</a>
-        </div>
-        <div>
+        <section class="courses-container">
             <h2>Our courses and workshops</h2>
-        </div>
-        <div>
-            <h3>Coffee extraction techniques</h3>
-            <p>Price: Free</p>
-            <p>Seat: 20</p>
-            <a class="btn-info" href="#">More information</a>
-        </div>
-        <div>
-            <h3>4 Coffee Recipes for Beginners</h3>
-            <p>Price: Free</p>
-            <p>Seat: 20</p>
-            <a class="btn-info" href="#">More information</a>
-        </div>
-        <div>
-            <h4 class="footer">CoffeeBlog</h2>
-            <h5 class="abococon"> <a class="abococon" href="#">About Us</a> <a class="abococon" href="#">Courses</a> <a class="abococon" href="#">Contact</a></h5>
-        </div>
+            <div class="bottom-line"><!--Coffee extraction techniques-->
+                <h3>Coffee extraction techniques</h3>
+                <p>Price: Free</p>
+                <p>Seat: 20</p>
+                <a class="btn btn-info" href="#">More information</a>
+            </div>
+            <div class="bottom-line"><!--coffee Recipes for Beginners-->
+                <h3>4 Coffee Recipes for Beginners</h3>
+                <p>Price: Free</p>
+                <p>Seat: 20</p>
+                <a class="btn btn-info" href="#">More information</a>
+            </div>
+        </section><!--.courses-container-->
+
     </main>
 </body>
+<footer class="site-footer">
+        <div class="menu-bar">
+            <h1>Coffee Blog</h1>
+            
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div> 
+</footer>
 </html>

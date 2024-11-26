@@ -1,4 +1,8 @@
 /*global*/
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     font-family:arial;
 }   
@@ -9,39 +13,48 @@ p{
     line-height: 1
     ;
 }
+
 /*utilities*/
 .container{
     width:80%;
     margin-left: auto;
     margin-right: auto;
 }
-.btn-more{
+
+.btn{
     display: inline-block;
-    background-color: black;
-    color: white;
     padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
     margin-top: 10px;
     margin-bottom: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 12px;
-
 }
+
+.btn-more{
+    background-color: black;
+    color: white;
+}
+
 .btn-info{
-    display: inline-block;
     background-color: brown;
     color: white;
-    padding: 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 12px;
 }
+
+.bottom-line{
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 20px;
+}
+
 /*header*/
-header{
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.site-header{
     background-image: url(img/banner.jpg);
     background-position: center center;
     background-size: cover;
@@ -49,25 +62,40 @@ header{
     height: 350px;
     text-align: center;
 }
-/*footer*/
-.footer{
-    background-color: black;
+.site-header a{
     color: white;
-    text-align: center;
-    font-size: 36px;
-    background-size: contain;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-/*abococon*/
-.abococon{
-    background-color: black;
-    color: white;
-    text-align: top;
-    text-align: center;
     text-decoration: none;
-    font-size: 16px;
-    background-size: contain;
-    margin-top: 0px;
-    margin-bottom: 0px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+/*main*/
+.main-flex{
+    display: flex;
+}
+.blog-container{
+    margin-right: 20px;
+    width: 60%;
+}
+.courses-container{
+    width: 40%;
+}
+.about-us{
+   margin: auto;
+   width: 50%;
+}
+.uslorem{
+    font-size: 11px;
+}
+/*footer*/
+.site-footer{
+    background-color: black;
+    color: white;
+
+}
+.site-footer a{
+    color: white;
+    text-decoration: none;
 }
