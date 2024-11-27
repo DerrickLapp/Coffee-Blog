@@ -7,20 +7,71 @@
     <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-
-    <header>
-        <a href="index.html"><h1>Coffee Blog</h1></a>
-        <nav>
+    <header class="secondary-header">
+        <div class="menu-bar">
+            <a href="index.html"><h1>Coffee Blog</h1></a>
+            <nav class="menu">
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>   
+    </header>
+    <main class="Container">
+        <h1>Courses</h1>
+        <div class="All-Courses">
+            <section class="Course-Listings First-Course"> <!--First Course-->
+                <h2>Coffee Extraction Techniques</h2>
+                <img class="extract-img" src="img/coffeeextract.jpg" alt="">
+                <p class="course-para"><!--  Description of Course -->
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et ut fugit quisquam culpa impedit quasi saepe, quas praesentium neque, nam enim provident asperiores ducimus laboriosam, eos architecto veritatis? Suscipit!</p>
+                <div class="form-container">
+                    <div class="input-control">
+                    <label>Name:</label>
+                    <input type="text">
+                    </div>
+                    <div class="input-control">
+                    <label>Email:</label>
+                    <input type="email">
+                    </div>
+                    <div>
+                        <button class="btn btn-more">Register</button>
+                    </div>
+                </div>
+            </section>
+            <div class="Center-Line"></div>
+            <section class="Course-Listings Second-Course"> <!--Second Course-->
+                <h2>4 Coffee Recipes for Beginners</h2>
+                <img class="extract-img recipes-img" src="img/4recipes.jpg" alt="">
+                <p class="course-para"><!--  Description of Course -->
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex non qui impedit? Ex suscipit facilis tempora consequuntur officia, perspiciatis quo reiciendis quas accusantium doloribus repudiandae placeat molestias cum ipsa debitis!</p>
+                <div class="form-container">
+                    <div class="input-control">
+                        <label>Name:</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-control">
+                        <label>Email:</label>
+                        <input type="email">
+                    </div>
+                    <div>
+                        <button class="btn btn-more">Register</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+<footer class="secondary-footer">
+    <div class="menu-bar2">
+        <h1>Coffee Blog</h1>
+        
+        <div class="menu">
+            <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="courses.html">Courses</a>
             <a href="contact.html">Contact</a>
-        </nav>
-        <h2>Coffee Blog with tips and courses</h2>
-        <p>Learn from the experts with the best recipes and tips</p>
-    </header>
-    <main class="container">
-        <h2>Courses</h2>
-
-    </main>
-</body>
+        </div>
+    </div> 
+</footer>
 </html>

@@ -10,13 +10,13 @@ img{
     max-width: 100%;
 }
 p{
-    line-height: 1
-    ;
+    line-height: 2;
 }
 
 /*utilities*/
 .container{
     width:80%;
+    padding: 3px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -30,6 +30,7 @@ p{
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 20px;
+    border: none;
 }
 
 .btn-more{
@@ -46,13 +47,35 @@ p{
     border-bottom: 2px solid lightgray;
     margin-bottom: 20px;
 }
+.Center-Line{
+    background-color: lightgray;
+    border-left: 6px;
+    height: 1000px;
+    width: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 
+}
 /*header*/
 .menu-bar{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+.contact-menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-bar2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .site-header{
     background-image: url(img/banner.jpg);
@@ -71,6 +94,16 @@ p{
     text-decoration: none;
     margin-right: 20px;
 }
+.secondary-header{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+.secondary-header a{
+    color: white;
+    text-decoration: none;
+}
+
 /*main*/
 .main-flex{
     display: flex;
@@ -89,6 +122,25 @@ p{
 .uslorem{
     font-size: 11px;
 }
+.All-Courses{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.Course-Listings{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+.extract-img{
+    margin-bottom: -110px;
+}
+.recipes-img{
+    height: 45.2%;
+}
 /*footer*/
 .site-footer{
     background-color: black;
@@ -98,4 +150,62 @@ p{
 .site-footer a{
     color: white;
     text-decoration: none;
+}
+.secondary-footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.secondary-footer a{
+    color: white;
+    text-decoration: none;
+}
+
+/*  Contact */
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.contact-form{
+    background-color: white;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input-control{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.input-control label{
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+.input-control input,
+.input-control textarea{
+    width: 60%;
+    padding: 5px;
+    border: 1px solid gray;
+}
+.course-para{
+    background-color: lightgray;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    
+}
+.form-container{
+    background-color: lightgray;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
 }
